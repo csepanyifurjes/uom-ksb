@@ -1,5 +1,5 @@
 # uom-su
-University of Miskolc, Synergy Unit research within the field of Human Centered Artificial Intelligence
+University of Miskolc, Knowledge-Sharing-Bridge research within the field of Human Centered Artificial Intelligence
 
 1. To set up the test DB file execute: persistence/setup_db.py
 2. To start up the application execute: run.sh
@@ -84,6 +84,6 @@ We can get a teaching word cloud that emphasizes the importance of the expected 
 http://localhost:3033/sugw/9e6f464c-20b3-4125-83c5-0ee7bd1e11a6/teach.png
 
 ###### Please cite this paper: 
-L. Csépányi-Fürjes, Controllable and explainable AI framework in the Automatic Assessment domain, 2023
+L. Csépányi-Fürjes, L. Kovács: Generalized Domain Tutoring Framework for AI Agents with Integrated Explainable AI Techniques
 
-The related paper: https://www.researchgate.net/publication/373873415_Controllable_and_explainable_AI_framework_in_the_Automatic_Assessment_domain
+Paper is under peer review!
