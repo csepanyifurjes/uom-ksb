@@ -1,4 +1,4 @@
-# uom-su
+# uom-ksb
 University of Miskolc, Knowledge-Sharing-Bridge research within the field of Human Centered Artificial Intelligence
 
 1. To set up the test DB file execute: persistence/setup_db.py
