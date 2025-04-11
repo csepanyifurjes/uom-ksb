@@ -1,6 +1,6 @@
 import logging
 
-from config import SYNERGY_UNITS
+from config import KSB_UNITS
 from flask import Flask, jsonify, send_file, request
 from io import BytesIO
 
@@ -9,11 +9,11 @@ LOG = logging.getLogger(__name__)
 app = Flask(__name__)
 
 
-report_su = SYNERGY_UNITS['report']['class']()
-explain_su = SYNERGY_UNITS['explain']['class']()
-control_su = SYNERGY_UNITS['control']['class']()
-teach_su = SYNERGY_UNITS['teach']['class']()
-future_su = SYNERGY_UNITS['future']['class']()
+report_su = KSB_UNITS['report']['class']()
+explain_su = KSB_UNITS['explain']['class']()
+control_su = KSB_UNITS['control']['class']()
+teach_su = KSB_UNITS['teach']['class']()
+future_su = KSB_UNITS['future']['class']()
 
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s - %(message)s',

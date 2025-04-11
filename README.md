@@ -4,8 +4,8 @@ University of Miskolc, Knowledge-Sharing-Bridge research within the field of Hum
 1. To set up the test DB file execute: persistence/setup_db.py
 2. To start up the application execute: run.sh
 
-The Automatic Assessment Tutor application will listen on local port: 3030
-The Synergy Unit gateway will listen on local port: 3033
+The Answer Validator Tutor application will listen on local port: 3030
+The Knowledge-Sharing-Bridge gateway will listen on local port: 3033
 
 ###### To test the AA application:
 

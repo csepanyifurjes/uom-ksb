@@ -1,10 +1,10 @@
-from su_control import ControlSynergyUnit
-from su_explain import ExplainSynergyUnit
-from su_report import ReportSynergyUnit
-from su_teach import TeachSynergyUnit
+from su_control import ControlUnit
+from su_explain import ExplainUnit
+from su_report import ReportUnit
+from su_teach import TeachUnit
 
 
-class NullSynergyUnit(object):
+class NullUnit(object):
     """ Object to follow the NULL pattern """
 
     def __init__(self):
@@ -14,20 +14,20 @@ class NullSynergyUnit(object):
         return self.health
 
 
-SYNERGY_UNITS = {
+KSB_UNITS = {
     'report': {
-        'class': ReportSynergyUnit
+        'class': ReportUnit
     },
     'explain': {
-        'class': ExplainSynergyUnit
+        'class': ExplainUnit
     },
     'control': {
-        'class': ControlSynergyUnit
+        'class': ControlUnit
     },
     'teach': {
-        'class': TeachSynergyUnit
+        'class': TeachUnit
     },
     'future': {
-        'class': NullSynergyUnit
+        'class': NullUnit
     }
 }

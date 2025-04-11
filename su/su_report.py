@@ -12,7 +12,7 @@ def dict_factory(cursor, row):
     return d
 
 
-class ReportSynergyUnit(object):
+class ReportUnit(object):
     """ Responsible for providing information about the executed tasks as well as some statistical data"""
 
     def __init__(self):

@@ -5,19 +5,19 @@ import matplotlib.pyplot as plt
 import matplotlib
 
 from wordcloud import WordCloud
-from su_report import ReportSynergyUnit
+from su_report import ReportUnit
 from sentence_transformers import SentenceTransformer, util
 
 LOG = logging.getLogger(__name__)
 
 
-class ExplainSynergyUnit(object):
+class ExplainUnit(object):
     """ Responsible for providing explanation of the executed tasks """
 
     def __init__(self):
         self.HEALTH = "UP"
         self.DB = "data/tutor_db.db"
-        self.report_su = ReportSynergyUnit()
+        self.report_su = ReportUnit()
         # self.model = SentenceTransformer('stsb-roberta-large')
         self.model = SentenceTransformer('NYTK/sentence-transformers-experimental-hubert-hungarian')
 

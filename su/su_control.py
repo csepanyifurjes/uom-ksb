@@ -14,7 +14,7 @@ class GradeGroup(Enum):
     SCHOOLISH = 3
 
 
-class ControlSynergyUnit(object):
+class ControlUnit(object):
     """ Responsible for controlling the behaviour of the application"""
 
     def __init__(self):

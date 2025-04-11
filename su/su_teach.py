@@ -6,7 +6,7 @@ import matplotlib
 import math
 
 from wordcloud import WordCloud
-from su_report import ReportSynergyUnit
+from su_report import ReportUnit
 from sentence_transformers import SentenceTransformer, util
 
 LOG = logging.getLogger(__name__)
@@ -20,13 +20,13 @@ def remove_stopwords(text):
     return result
 
 
-class TeachSynergyUnit(object):
+class TeachUnit(object):
     """ Responsible for teaching the users of the system"""
 
     def __init__(self):
         self.HEALTH = "UP"
         self.DB = "data/tutor_db.db"
-        self.report_su = ReportSynergyUnit()
+        self.report_su = ReportUnit()
         # self.model = SentenceTransformer('stsb-roberta-large')
         self.model = SentenceTransformer('NYTK/sentence-transformers-experimental-hubert-hungarian')
 
